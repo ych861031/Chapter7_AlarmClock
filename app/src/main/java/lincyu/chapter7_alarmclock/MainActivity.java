@@ -54,12 +54,13 @@ public class MainActivity extends ActionBarActivity {
 
 		Calendar c = Calendar.getInstance();
 		c.setTimeInMillis(System.currentTimeMillis());
-		c.add(Calendar.MINUTE, 1);
+//		c.add(Calendar.MINUTE, 1);
 //		c.set(Calendar.MINUTE, 0);
 //		c.set(Calendar.SECOND, 0);
 //		c.set(Calendar.MILLISECOND, 0);
+//		System.out.println();
 		
-		long interval = 1000;//*60*60;
+		long interval = 1000*3;
 		am.setRepeating(AlarmManager.RTC_WAKEUP,
 				c.getTimeInMillis(), interval, pendingintent);
 		Toast.makeText(MainActivity.this, "整點報時開始",
