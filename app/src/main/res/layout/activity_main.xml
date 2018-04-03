@@ -14,4 +14,21 @@
 		android:layout_height="wrap_content"
 		android:textSize="20sp"
 		android:text="停止整點報時"/>
+
+	<EditText
+		android:id="@+id/editText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="Hour"
+		android:inputType="textPersonName" />
+
+	<EditText
+		android:id="@+id/editText2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="Minute"
+		android:inputType="textPersonName" />
+
 </LinearLayout>
